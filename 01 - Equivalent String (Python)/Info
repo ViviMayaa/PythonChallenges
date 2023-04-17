@@ -1,0 +1,18 @@
+Description
+String are very common types in programming languages. In this problem, you need to design a simple string class MString, and finally we will call isEquivalent() in that class to determine if two strings are equal.
+
+Wechat reply 【Two Sigma】 get the latest requent Interview questions. (wechat id : jiuzhang1104)
+
+
+Note that you don't need to return the output string, just the boolean value of whether they are equal or not.
+
+Example
+Example 1:
+
+Input:
+
+"sinsiuvbnwpwbv"
+"sinsiuvbnwp"
+Output:
+
+These two strings are inequivalent

@@ -1,0 +1,50 @@
+Handoff de Clientes
+
+Handoff de Clientes
+
+Contextualização:
+
+Você é desenvolvedor numa empresa de marketing digital. Cada possível cliente cadastrado através do web site é direcionado para um vendedor em específico, obedecendo uma fila de distribuição simples.
+
+
+
+Cada vendedor que recebe um potencial cliente passa a ocupar o último lugar da fila de distribuição. Isso faz com que, de forma justa, todos os vendedores tenham oportunidade de concretizar vendas do produto/serviço oferecido pela empresa.
+
+
+
+Seu desafio:
+
+Tendo como base o estado inicial da fila de distribuição, que é dado pelo vetor de IDs dos vendedores cadastrados, você precisa ser capaz de estabelecer o estado dela depois do cadastro de um número N de clientes, mostrando quem é o primeiro vendedor da fila e quantos clientes precisam se cadastrar para que o vendedor de ID X chegue à frente da fila.
+
+
+
+Exemplo: para o estado inicial F=[3, 6, 8, 4, 7] da fila, depois de C=4 clientes cadastrados o estado resultante da fila será R=[4, 7, 3, 6, 8], visto que:
+
+Depois do primeiro cliente cadastrado a fila terá o estado [6, 8, 4, 7, 3]
+Depois do segundo cadastro a fila terá o estado [8, 4, 7, 3, 6]
+Depois do terceiro cadastro o estado resultante será [4, 7, 3, 6, 8]
+Por fim, depois do terceiro cadastro o estado resultante será [7, 3, 6, 8, 4]
+
+
+Para este estado resultante podemos então concluir que o vendedor que ocupa a primeira posição na fila é o de ID 7.
+
+
+
+Podemos concluir também concluir que, para que o vendedor de id 3 chegue à frente da fila, é necessários o cadastro de mais 1 cliente.
+
+
+
+Formato de Entrada (todas as linhas de entrada são do tipo string):
+
+A primeira linha contém o número itens da fila de vendedores V
+A segunda linha contém os ids dos vendedores separados por espaço no estado inicial da fila F
+A terceira linha contém o número de clientes cadastrados C
+A quarta linha contém o ID de um dos vendedores X
+
+
+Formato de saída:
+
+Você precisa imprimir duas linhas como resultado
+
+A primeira linha deve conter o ID do vendedor que ocupa a primeira posição no estado resultante da fila depois do número C de clientes cadastrados.
+A segunda linha deve conter o número de de clientes que precisam se cadastrar para que o vendedor X chegue à frente da fila.
