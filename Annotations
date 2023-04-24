@@ -1,1 +1,4 @@
-This Project keeps all challenges made so far, from lintcode website.
+This Project keeps all challenges made so far, from diverse websites.
+
+The info txt inside contains the detail information of the challenge, and the main contains
+the resolution with annotations to make it easier to understand the process.
