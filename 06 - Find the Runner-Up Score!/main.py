@@ -1,7 +1,7 @@
 def input():
     number_list = [2, 3, 6, 6, 5]
     # returns 5, second highest number
-    # number_list = [57, 57, -57, 57]
+    number_list = [57, 57, -42, -57, -12, 57]
     # number_list = [5, 5, 6]
 
     return number_list
@@ -18,7 +18,7 @@ if __name__ == '__main__':
     for value in arr:
         if value > second_high_score and value != high_score:
             second_high_score = value
-        elif value < 0 and second_high_score == 0:
+        elif value < 0 and (second_high_score < value or second_high_score == 0):
             second_high_score = value
 
     print(second_high_score)
