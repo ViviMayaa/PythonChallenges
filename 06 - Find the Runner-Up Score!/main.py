@@ -2,6 +2,7 @@ def input():
     number_list = [2, 3, 6, 6, 5]
     # returns 5, second highest number
     number_list = [57, 57, -42, -57, -12, 57]
+    number_list = [-7, -7, -7, -7, -6]
     # number_list = [5, 5, 6]
 
     return number_list

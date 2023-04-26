@@ -1,0 +1,21 @@
+-------------------Alphabetic Order------------------
+my_list = ['Jack', 'Sam', 'Jay', 'Mark','Baron']
+sorted_list = sorted(my_list)
+print(sorted_list)
+result: ['Baron', 'Jack', 'Jay', 'Mark', 'Sam']
+-----------------------------------------------------
+------------------Maximum-Minimum--------------------
+max()
+min()
+Does not work on float
+------------------------------------------------------
+------------------map-to-list-------------------------
+arr = map(int, input().split())
+total_numbers = list(arr)
+------------------------------------------------------
+----------------unorganized-unique--------------------
+set result is always different but does not repeat a value
+list_of_words = list(set(phrase_format))
+result:{'f', 'p', 's', 'b', 'i', 'd', 'm', 'o', 'e', 'l', 'y', 'h', 't', 'a', 'n', 'x', 'g'}
+['d', 'a', 'i', 'e', 'm', 'g', 'p', 'l', 'o', 'b', 'f', 'x', 'h', 'y', 't', 's', 'n']
+-------------------------------------------------------
