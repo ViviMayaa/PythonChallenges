@@ -17,5 +17,32 @@ total_numbers = list(arr)
 set result is always different but does not repeat a value
 list_of_words = list(set(phrase_format))
 result:{'f', 'p', 's', 'b', 'i', 'd', 'm', 'o', 'e', 'l', 'y', 'h', 't', 'a', 'n', 'x', 'g'}
-['d', 'a', 'i', 'e', 'm', 'g', 'p', 'l', 'o', 'b', 'f', 'x', 'h', 'y', 't', 's', 'n']
--------------------------------------------------------
+as list : ['d', 'a', 'i', 'e', 'm', 'g', 'p', 'l', 'o', 'b', 'f', 'x', 'h', 'y', 't', 's', 'n']
+-----------------------STRING--------------------------
+str.isalnum()
+This method checks if all the characters of a string are alphanumeric (a-z, A-Z and 0-9).
+str.isalpha()
+This method checks if all the characters of a string are alphabetical (a-z and A-Z).
+str.isdigit()
+This method checks if all the characters of a string are digits (0-9).
+str.islower()
+This method checks if all the characters of a string are lowercase characters (a-z).
+str.isupper()
+This method checks if all the characters of a string are uppercase characters (A-Z).
+SPLIT-----------------------------------------------------
+>>> a = "this is a string"
+>>> a = a.split(" ") # a is converted to a list of strings.
+>>> print a
+['this', 'is', 'a', 'string']
+JOIN-----------------------------------------------------
+>>> a = "-".join(a)
+>>> print a
+this-is-a-string
+----------------------------------------------------
+--------------------LIST----------------------------
+insert i e: Insert integer  at position .
+remove e: Delete the first occurrence of integer .
+append e: Insert integer  at the end of the list.
+sort: Sort the list.
+pop: Pop the last element from the list.
+reverse: Reverse the list.
