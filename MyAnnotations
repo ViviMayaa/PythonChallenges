@@ -1,23 +1,30 @@
+Json.dumps = dict/json para string
+Json.loads= string para dict/json
+
 -------------------Alphabetic Order------------------
 my_list = ['Jack', 'Sam', 'Jay', 'Mark','Baron']
 sorted_list = sorted(my_list)
 print(sorted_list)
 result: ['Baron', 'Jack', 'Jay', 'Mark', 'Sam']
------------------------------------------------------
+
+---------------------Even-Odd-----------------------
+   If % returns 0 it returns FALSE
+
 ------------------Maximum-Minimum--------------------
 max()
 min()
 Does not work on float
-------------------------------------------------------
+
 ------------------map-to-list-------------------------
 arr = map(int, input().split())
 total_numbers = list(arr)
-------------------------------------------------------
-----------------unorganized-unique--------------------
-set result is always different but does not repeat a value
+
+----------------Unorganized-Unique--------------------
+set result is always different but does NOT repeat a value
 list_of_words = list(set(phrase_format))
-result:{'f', 'p', 's', 'b', 'i', 'd', 'm', 'o', 'e', 'l', 'y', 'h', 't', 'a', 'n', 'x', 'g'}
+result as set:{'f', 'p', 's', 'b', 'i', 'd', 'm', 'o', 'e', 'l', 'y', 'h', 't', 'a', 'n', 'x', 'g'}
 as list : ['d', 'a', 'i', 'e', 'm', 'g', 'p', 'l', 'o', 'b', 'f', 'x', 'h', 'y', 't', 's', 'n']
+
 -----------------------STRING--------------------------
 str.isalnum()
 This method checks if all the characters of a string are alphanumeric (a-z, A-Z and 0-9).
@@ -29,16 +36,18 @@ str.islower()
 This method checks if all the characters of a string are lowercase characters (a-z).
 str.isupper()
 This method checks if all the characters of a string are uppercase characters (A-Z).
+
 SPLIT-----------------------------------------------------
->>> a = "this is a string"
->>> a = a.split(" ") # a is converted to a list of strings.
->>> print a
+a = "this is a string"
+a = a.split(" ") # a is converted to a list of strings.
+print a
 ['this', 'is', 'a', 'string']
+
 JOIN-----------------------------------------------------
->>> a = "-".join(a)
->>> print a
+a = "-".join(a)
+print a
 this-is-a-string
-----------------------------------------------------
+
 --------------------LIST----------------------------
 insert i e: Insert integer  at position .
 remove e: Delete the first occurrence of integer .
@@ -46,3 +55,16 @@ append e: Insert integer  at the end of the list.
 sort: Sort the list.
 pop: Pop the last element from the list.
 reverse: Reverse the list.
+
+----------------Adding-data------------------------
+dictionary: exampleDict = {"John": "Jane"}
+name.update({key: value})
+
+list: exampleList = ["John", "Jane", "Doe"]
+name.append(value)
+
+set: exampleSet = {"John", "Jane", "Doe"}
+name.add("Ihechikara")
+
+tuple: exampleTuple = ("apple", "banana", "cherry")
+cannot update, change to list if you have to.

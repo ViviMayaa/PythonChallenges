@@ -1,12 +1,12 @@
 if __name__ == '__main__':
-    s = 'qA2'
+    test_value = 'qA2'
     # expect all True
     num = False
     alpha = False
     digit = False
     lower = False
     upper = False
-    for value in s:
+    for value in test_value:
         if value.isalnum():
             num = True
         if value.isalpha():
