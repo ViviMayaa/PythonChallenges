@@ -8,12 +8,10 @@ print(sorted_list)
 result: ['Baron', 'Jack', 'Jay', 'Mark', 'Sam']
 
 ---------------------Even-Odd-----------------------
-   If % returns 0 it returns FALSE
+If % returns 0 it returns FALSE
 
 ------------------Maximum-Minimum--------------------
-max()
-min()
-Does not work on float
+max() min() Does not work on float
 
 ------------------map-to-list-------------------------
 arr = map(int, input().split())
@@ -55,6 +53,8 @@ append e: Insert integer  at the end of the list.
 sort: Sort the list.
 pop: Pop the last element from the list.
 reverse: Reverse the list.
+print all statements in a list at once:
+print(*a, sep = "\n")
 
 ----------------Adding-data------------------------
 dictionary: exampleDict = {"John": "Jane"}
