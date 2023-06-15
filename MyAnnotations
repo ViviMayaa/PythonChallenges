@@ -9,6 +9,9 @@ result: ['Baron', 'Jack', 'Jay', 'Mark', 'Sam']
 
 ---------------------Even-Odd-----------------------
 If % returns 0 it returns FALSE
+Is a Boolean rule, empty data [] () {}, False and 0 return False.
+# integer division 3//5 = 0
+# float division 3/5 = 0.6
 
 ------------------Maximum-Minimum--------------------
 max() min() Does not work on float
@@ -51,20 +54,34 @@ insert i e: Insert integer  at position .
 remove e: Delete the first occurrence of integer .
 append e: Insert integer  at the end of the list.
 sort: Sort the list.
-pop: Pop the last element from the list.
+pop: Pop the last element from the list/dict.
 reverse: Reverse the list.
 print all statements in a list at once:
 print(*a, sep = "\n")
 
-----------------Adding-data------------------------
+----------------Adding-removing-data------------------------
 dictionary: exampleDict = {"John": "Jane"}
 name.update({key: value})
+pop: Pop the last element from the list/dict.
+thisdict.pop("model")
+thisdict.clear()
 
 list: exampleList = ["John", "Jane", "Doe"]
 name.append(value)
+pop: Pop the last element from the list/dict.
+thislist.pop(1)
+thislist.remove("banana")
+thislist.clear()
 
 set: exampleSet = {"John", "Jane", "Doe"}
 name.add("Ihechikara")
+Adding multiple items
+more_names = ["name1", "name2"]
+name.update(more_names)
+
+thisset.remove("banana")
+thisset.discard("banana")
+remove raises error if data is not found, discard doesn't
 
 tuple: exampleTuple = ("apple", "banana", "cherry")
 cannot update, change to list if you have to.

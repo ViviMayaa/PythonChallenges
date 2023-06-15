@@ -11,7 +11,7 @@ print(f"Number of A's {count}")
 # 2 - printar a quantidade de palavras da frase
 # counting the number of words
 count = 0
-phrase_format = phrase.replace(',', '').replace("  ", '')
+phrase_format = phrase.replace(',', '').replace("  ", ' ')
 list_phrase = phrase_format.split(' ')
 count = len(list_phrase)
 
